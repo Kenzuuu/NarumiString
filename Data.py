@@ -6,35 +6,31 @@ class Data:
     START = """
 Halo {}
 
-Selamat datang {}
+My Name Is {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
+I can help you retrieve the session string code.
 
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @triplenineee
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ​", callback_data="generate")],
-        [InlineKeyboardButton(text="ʙᴀᴄᴋ​", callback_data="home")]
+        [InlineKeyboardButton("★ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ★", callback_data="generate")],
+        [InlineKeyboardButton(text="★ ʙᴀᴄᴋ​ ★", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")]
+        [InlineKeyboardButton("★ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ★", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/triplenineee")],
+        [InlineKeyboardButton("★ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ★", callback_data="generate")],
+        [InlineKeyboardButton("★ ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ ​★", url="https://t.me/triplenineee")],
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+            InlineKeyboardButton("★ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ★​​", callback_data="help"),
+            InlineKeyboardButton("★ ᴀʙᴏᴜᴛ​ ★", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴꜰo ʟᴀɪɴɴʏᴀ​", url="https://t.me/narumisupport")],
+        [InlineKeyboardButton("★ ɪɴꜰo ʟᴀɪɴɴʏᴀ ​★", url="https://t.me/kenzusupport")],
     ]
 
     # Help Message
@@ -55,11 +51,11 @@ By @triplenineee
 
 Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @ZhuXstringBot
 
-Group Support : [Gabung](https://t.me/narumisupport)
+Group Support : [JOIN](https://t.me/Kenzusupport)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @triplenineee
+Developer : [KENZHU](https://t.me/triplenineee)
     """
